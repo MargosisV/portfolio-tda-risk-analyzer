@@ -34,19 +34,19 @@ The topology-aware portfolio achieves the best risk-adjusted return (Sharpe) and
 
 ## Screenshots
 
-Το περιβάλλον της εφαρμογής είναι στα ελληνικά, όπως στη διπλωματική. / *The application UI is in Greek, as in the thesis.*
+The application UI is in Greek, as in the thesis.
 
-**Persistence diagram** — H0 (ομάδες τίτλων) και H1 (κύκλοι) ως σημεία birth/death. Τα H0 σημεία μακριά από τη διαγώνιο δείχνουν έντονα διαχωρισμένες ομάδες.
+**Persistence diagram** — H0 (groups of assets) and H1 (loops) as birth/death points. H0 points far from the diagonal indicate strongly separated groups of assets.
 
 ![Persistence diagram](docs/persistence-diagram.png)
 
-**Barcode** — οι 10 πιο επίμονες μπάρες. Μεγαλύτερη μπάρα = πιο σταθερό τοπολογικό χαρακτηριστικό.
+**Barcode** — the 10 most persistent bars. A longer bar means a more stable topological feature.
 
 ![Barcode](docs/barcode.png)
 
-**Σύγκριση κινδύνου** — VaR, CVaR, max drawdown και volatility για Equal-Weight, Min-CVaR και Topology-Aware.
+**Risk comparison** — VaR, CVaR, max drawdown and volatility for the Equal-Weight, Min-CVaR and Topology-Aware portfolios.
 
-![Portfolio comparison](docs/portfolio-comparison.png)
+![Risk comparison](docs/portfolio-comparison.png)
 
 ## Tech stack
 
